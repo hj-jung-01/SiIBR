@@ -1,0 +1,13 @@
+# tested with torch 2.5.0 / torchvision 0.20.0 (CUDA 12.1)
+torch>=2.0
+torchvision
+numpy
+opencv-python
+scikit-image
+Pillow
+tensorboard
+diffusers==0.30.3
+transformers==4.44.2
+accelerate==0.34.2
+safetensors
+# super-resolution (PFT-SR): installed by scripts/setup_pft_sr.sh
